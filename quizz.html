@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz em JavaScript</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        #quiz {
+            margin-top: 20px;
+        }
+
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Bem-vindo ao Mundo da Programação!</h1>
+        <p> agora vamos testar o que você aprendeu</p>
+        <p> mas antes de tudo coloque seu nick</p>
+        <button onclick="solicitarNome()">Nome do jogador</button>
+
+    </header>
+
+    <h1>Quiz de Conhecimentos Gerais</h1>
+    <div id="quiz">
+        <div id="question"></div>
+        <div id="options"></div>
+        <button id="next" class="hidden">Próxima Pergunta</button>
+    </div>
+    <div id="result" class="hidden"></div>
+
+    <script src="script.js">
+
+    </script>
+
+</body>
+
+</html>
